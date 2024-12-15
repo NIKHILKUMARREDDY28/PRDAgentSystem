@@ -5,7 +5,9 @@ import yaml
 
 # Load environment variables
 load_dotenv(find_dotenv())
-
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Load agent configurations
 with open('agents.yaml', 'r') as file:
     agents_config = yaml.safe_load(file)

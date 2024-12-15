@@ -196,7 +196,3 @@ if generate_button:
             st.error("❗ Please select at least one agent for the discussion.")
     else:
         st.error("❗ Product requirements cannot be empty. Please provide details to proceed.")
-
-# Footer with additional information
-st.markdown("---")
-st.markdown("Developed by [Nikhil](https://nikhilkumarreddy28.hashnode.dev/). © 2023 All rights reserved.")

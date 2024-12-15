@@ -11,6 +11,7 @@ streamlit = "^1.40.2"
 crewai = "^0.83.0"
 crewai-tools = "^0.14.0"
 python-dotenv = "^1.0.1"
+db-sqlite3 = "^0.0.1"
 
 
 [build-system]

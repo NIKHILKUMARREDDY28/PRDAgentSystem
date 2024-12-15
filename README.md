@@ -81,7 +81,6 @@ The **PRD Agent System** is a collaborative AI-powered tool designed to streamli
 PRDAgentSystem/
 ├── main_2.py               # Main application file
 ├── agents.yaml             # Agent configurations
-├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ├── .env                    # Environment variables (not included in the repository)
 └── .gitignore              # Ignore sensitive files
